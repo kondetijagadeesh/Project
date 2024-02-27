@@ -13,4 +13,6 @@ print(@sql)
 
 end
 
-exec usp_emp1 @ename = 'miller'
+exec usp_emp1 @ename = 'miller' 
+
+drop procedure usp_emp1
