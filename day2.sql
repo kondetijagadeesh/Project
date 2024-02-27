@@ -16,3 +16,5 @@ create TABLE [emp_details] (
 
 select * from [emp_details] (nolock)
 
+delete [emp_details]
+
